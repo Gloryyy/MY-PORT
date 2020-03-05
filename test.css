@@ -1,0 +1,310 @@
+/*!
+
+ =========================================================
+ * Paper Kit - v2.2.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/paper-kit-2
+ * Copyright 2019 Creative Tim (http://www.creative-tim.com)
+
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+
+/*      light colors - used for select dropdown         */
+
+/* ========================================================================
+ * bootstrap-switch - v3.3.2
+ * http://www.bootstrap-switch.org
+ * ========================================================================
+ * Copyright 2012-2013 Mattia Larentis
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+ 
+  
+  .footer {
+    background-attachment: fixed;
+    position: relative;
+    line-height: 20px;
+  }
+  
+  .footer .footer-nav ul {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .footer nav>ul {
+    list-style: none;
+    font-weight: normal;
+  }
+  
+  .footer nav>ul>li {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .footer nav>ul a:not(.btn) {
+    color: #777777;
+    display: block;
+    margin-bottom: 3px;
+    line-height: 1.6;
+    opacity: .8;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .footer nav>ul a:not(.btn):hover,
+  .footer nav>ul a:not(.btn):focus {
+    color: #777777;
+    opacity: 1;
+  }
+  
+  .footer .copyright {
+    color: #777777;
+    padding: 10px 0px;
+    font-size: 14px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center;
+  }
+  
+  .footer .heart {
+    color: #EB5E28;
+  }
+  
+  .footer {
+    background-color: #FFFFFF;
+    line-height: 36px;
+  }
+  
+  .footer.footer-black h4 {
+    color: #FFFFFF;
+  }
+  
+  .footer .links {
+    display: inline-block;
+  }
+  
+  .footer .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+  }
+  
+  .footer .links ul>li {
+    display: inline-block;
+    padding-right: 20px;
+  }
+  
+  .footer .links ul>li:last-child {
+    padding-right: 0px;
+  }
+  
+  .footer .links ul a:not(.btn) {
+    color: #66615b;
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 3px;
+  }
+  
+  .footer .links ul a:not(.btn):hover,
+  .footer .links ul a:not(.btn):focus {
+    color: #403D39;
+  }
+  
+  .footer .links ul.uppercase-links {
+    text-transform: uppercase;
+  }
+  
+  .footer .links ul.stacked-links {
+    margin-top: 10px;
+  }
+  
+  .footer .links ul.stacked-links>li {
+    display: block;
+    line-height: 26px;
+  }
+  
+  .footer .links ul.stacked-links h4 {
+    margin-top: 0px;
+  }
+  
+  .footer .social-area {
+    padding: 15px 0;
+  }
+  
+  .footer .social-area .btn {
+    margin-bottom: 3px;
+    padding: 8px;
+  }
+  
+  .footer .social-area .btn i {
+    margin-right: 0 !important;
+    color: #fff;
+  }
+  
+  .footer hr {
+    border-color: #DDDDDD;
+    border-width: 1px 0 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .footer .copyright {
+    color: #A49E9E;
+    font-size: 0.9em;
+  }
+  
+  .footer .copyright ul>li {
+    padding-right: 0px;
+  }
+  
+  .footer .title {
+    color: #403D39;
+  }
+  
+  
+  .page-header {
+    background-color: #B2AFAB;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 999px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .page-header .filter::after {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .page-header.page-header-small {
+    min-height: 65vh !important;
+    max-height: 700px;
+  }
+  
+  .page-header.page-header-xs {
+    min-height: 40vh !important;
+  }
+  
+  .page-header.section-dark .content-center,
+  .page-header.section-dark .category-absolute {
+    z-index: 1;
+  }
+  
+  
+  .navbar-relative {
+    position: relative;
+    z-index: 2;
+  }
+
+  .navbar-nav{
+      margin-right: 100px;
+      font-size: 30px;
+  }
+
+  .navbar-brand{
+      margin-left: 100px;
+      font-size: 30px;
+  }
+  .navbar-collapse>.navbar-nav>.nav-item>.nav-link{color: brown;}
+  
+  .title-brand {
+    max-width: 730px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+  }
+  
+  .presentation-title {
+    font-size: 8em;
+    font-weight: 700;
+    width: 800px;
+    margin: 0;
+    color: #FFFFFF;
+    background: #fbf8ec;
+    background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
+    background: -webkit-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
+    background: -ms-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
+    background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .presentation-subtitle {
+    font-size: 1.7em;
+    color: #FFFFFF;
+  }
+  
+  .category-absolute {
+    position: absolute;
+    text-align: center;
+    top: 100vh;
+    margin-top: -60px;
+    padding: 0 15px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .category-absolute .creative-tim-logo {
+    max-width: 140px;
+    top: -2px;
+    left: 3px;
+    position: relative;
+  }
+  
+  .fog-low {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-left: -35%;
+    margin-bottom: -50px;
+    width: 110%;
+    opacity: .85;
+  }
+  
+  .fog-low img {
+    width: 100%;
+  }
+  
+  .fog-low.right {
+    margin-left: 30%;
+    opacity: 1;
+  }
+  
+  .moving-clouds {
+    position: absolute;
+    background-size: cover;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 250.625em;
+    height: 43.75em;
+    -webkit-animation: cloudLoop 80s linear infinite;
+    animation: cloudLoop 80s linear infinite;
+  }
